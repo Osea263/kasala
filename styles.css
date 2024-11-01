@@ -59,6 +59,7 @@ body {
 .container__left {
   padding-inline: 1rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .container__left h1 {
@@ -67,6 +68,11 @@ body {
   font-weight: 700;
   line-height: 4.5rem;
   color: var(--text-dark);
+}
+
+.container__btn{
+  display: flex;
+
 }
 
 .container__left .btn {
@@ -121,14 +127,15 @@ body {
 }
 
 .tent-1 {
-  max-width: 300px;
+  padding-left: 2rem;
+  max-width: 280px;
   transform: translateX(1rem);
   border-radius: 1rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .tent-2 {
-  max-width: 180px;
+  max-width: 120px;
   transform: translateX(-1rem);
   border-radius: 1rem;
   background-color: #11a372;
